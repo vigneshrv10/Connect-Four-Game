@@ -25,11 +25,8 @@ A web-based implementation of the classic Connect Four game with enhanced UI, an
     ```bash
     git clone https://github.com/jayant77778 /Connect-Four-Game.git
     ```
-2. Navigate to the project directory:
-    ```bash
-    cd connect-four
-    ```
-3. Open `index.html` in your preferred web browser.
+
+2. Open `index.html` in your preferred web browser.
 
 ## Files
 
