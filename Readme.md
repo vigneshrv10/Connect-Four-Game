@@ -23,8 +23,7 @@ A web-based implementation of the classic Connect Four game with enhanced UI, an
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/jayant77778 
-/connect-four.git
+    git clone https://github.com/jayant77778 /connect-four.git
     ```
 2. Navigate to the project directory:
     ```bash
