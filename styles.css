@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f06, #ff9);
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 20px 0;
+    color: #333;
+    text-shadow: 2px 2px 4px #fff;
+}
+
+.player-inputs {
+    margin-top: 20px;
+}
+
+.player-inputs input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.player-inputs button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.player-inputs button:hover {
+    background-color: #555;
+}
+
+#current-turn {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(7, 80px);
+    grid-gap: 5px;
+    margin-top: 20px;
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cell.red {
+    background-color: red;
+    animation: fadeIn 0.5s;
+}
+
+.cell.yellow {
+    background-color: yellow;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+#reset-button:hover {
+    background-color: #555;
+}
+
+.congratulations {
+    font-size: 24px;
+    color: #0603032c;
+    text-shadow: 2px 2px 4px #000;
+    margin-top: 20px;
+    animation: sparkle 1s infinite;
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        text-shadow: 0 0 5px #ffeb3b, 0 0 10px #ffeb3b, 0 0 15px #ffeb3b, 0 0 20px #ffeb3b;
+    }
+    50% {
+        text-shadow: 0 0 10px #ffeb3b, 0 0 20px #ffeb3b, 0 0 30px #ffeb3b, 0 0 40px #ffeb3b;
+    }
+}
