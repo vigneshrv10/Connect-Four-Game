@@ -52,18 +52,12 @@ A web-based implementation of the classic Connect Four game with enhanced UI, an
 
 - Handles game logic including player turns, checking for a win, updating the display, and triggering animations.
 
-## Customization
-
-- **Colors and Animations:** Modify the CSS file to change the appearance and animations.
-- **Game Logic:** Adjust the JavaScript file for custom game rules or additional features.
 
 ## Contributions
 
 Feel free to fork the project, create a new branch, and submit a pull request with your changes. Contributions are always welcome!
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Connect
 
