@@ -21,12 +21,9 @@ A web-based implementation of the classic Connect Four game with enhanced UI, an
 
 ## Installation
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/jayant77778 /Connect-Four-Game.git
-    ```
 
-2. Open `index.html` in your preferred web browser.
+
+1. Open `index.html` in your preferred web browser.
 
 ## Files
 
@@ -55,9 +52,3 @@ Feel free to fork the project, create a new branch, and submit a pull request wi
 
 
 
-## Connect
-
-Share your feedback and improvements!
-
-- LinkedIn: https://www.linkedin.com/in/jayant-bhati-263206259/
-- GitHub: https://github.com/jayant77778 
